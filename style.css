@@ -186,5 +186,17 @@ footer {
 }
 
 @media (max-width:576px) {
-    
+    main {
+        .principal {
+            .articles {
+                flex-direction: column;
+
+                article {
+                    width: calc(100% - 10px);
+                    margin: 0;
+                    padding: 5px;
+                }
+            }
+        }
+    }
 }

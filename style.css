@@ -8,6 +8,10 @@
     box-sizing: content-box;
 }
 
+body {
+    background-color: lightcoral;
+}
+
 .container {
     max-width: 1200px;
     margin: auto;
@@ -111,11 +115,11 @@ main {
 }
 
 footer {
-    background-color: gray;
+    background-color: black;
     padding: 20px;
 
     .pie {
-        background-color: yellow;
+        background-color: lightgreen;
         padding: 10px;
 
     }
@@ -123,6 +127,10 @@ footer {
 }
 
 @media (max-width: 768px) {
+
+    body {
+        background-color: yellow;
+    }
 
     header {
 
@@ -186,6 +194,11 @@ footer {
 }
 
 @media (max-width:576px) {
+
+    body {
+        background-color: lightskyblue;
+    }
+
     main {
         .principal {
             .articles {
